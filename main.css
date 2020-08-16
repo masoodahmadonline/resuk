@@ -1,0 +1,395 @@
+/* 
+    Document   : main
+    Created on : Feb 28, 2013, 7:22:40 AM
+    Author     : masood
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+/* ~~~~~~~~~~~ Reducing problems caused by old browsers ~~~~~~~~~~~ */
+header, footer, nav, article, section, aside, figure {
+    display: block;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body,div,span,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,
+fieldset,legend,input,button,textarea,select,p,blockquote,th,td,br{
+    margin:0;
+    padding:0
+}
+*{margin:0; padding:0;outline: 0;font-size: 100%;}
+
+html, body, div, span, applet, object, iframe,                                                                                                               
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,                                                                                                                  
+a, abbr, acronym, address, big, cite, code,                                                                                                                  
+del, dfn, em, img, ins, kbd, q, s, samp,                                                                                                                     
+small, strike, strong, sub, sup, tt, var,                                                                                                                    
+b, u, i, center,                                                                                                                                             
+dl, dt, dd, ol, ul, li,                                                                                                                                  
+fieldset, form, label, legend,                                                                                                                               
+table, caption, tbody, tfoot, thead, tr, th, td,                                                                                                             
+article, aside, canvas, details, figcaption, figure,                                                                                                         
+footer, header, hgroup, menu, nav, section, summary,                                                                                                         
+time, mark, audio, video {                                                                                                                                   
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+      
+        
+}
+
+table{
+
+border-spacing: 0px;
+}
+
+#header_alert_old_cv{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+body{
+    text-shadow: 0px 0px 15px rgb(255,255,255);
+    /**background-image: url(code.jpg);**/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+
+#page_wrapper{
+  position:relative;
+    background-color: rgba(245,245,245,0.5);
+/*    background-image: url(MapseXo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:cover;*/
+    width: 1000px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7) inset;
+    border-radius: 50px;
+}
+
+
+#header_detials_text{
+    margin-right: 20px;
+    display: inline-block;
+    text-align: right;
+}
+#header_picture{
+   
+    display: inline-block;
+    
+}
+
+#video_links{
+
+    display: inline-block;
+    margin-left: 5px;
+
+}
+#header_picture img{
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7) ;
+}
+
+#main_message{
+    width:500px;
+    display: inline-block;
+    color:red;
+    margin:20px;
+    text-align:center;
+    
+}
+
+#pdf-download{
+    position:absolute;
+    margin-right:25px;
+    margin-top:15px;
+    top:0px;
+    right:0px;
+}
+
+
+
+/************************* skills ***************************/
+
+
+#skills_body{
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+        transition:All 2s ;
+-webkit-transition:All 2s ;
+-moz-transition:All 2s ;
+-o-transition:All 2s ;
+transform:  scale(1) ;
+-webkit-transform:  scale(1) ;
+-moz-transform:  scale(1)  ;
+-o-transform:  scale(1)  ;
+-ms-transform:  scale(1)  ;
+    
+}
+
+#skills_body:hover{
+        transform:  scale(1.1)  ;
+-webkit-transform:  scale(1.1)  ;
+-moz-transform:  scale(1.1) ;
+-o-transform:  scale(1.1)  ;
+-ms-transform:  scale(1.1)  ;
+}
+.skills_column{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    max-width: 200px;
+    
+  
+}
+
+.skills_column_wide{
+    vertical-align: top;
+    max-width: 650px;
+}
+
+.skills_column .data{
+    max-width: 200px;
+}
+
+.skills_column .data_wide_table{
+    max-width: 650px;
+}
+
+.skills_column .data tr:nth-child(odd){
+  background-color: rgba(0,0,0,0.08)
+}
+
+.skills_column_wide .data_wide_table tr:nth-child(odd){
+  background-color: rgba(0,0,0,0.08)
+}
+
+.images_table img {
+
+    width: 70px;
+    height: 50px;
+}
+
+/************************* videos ***********************************/
+iframe {
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);
+}
+/************************* major headings ***************************/
+
+
+.major_header{
+    font-size: 35px;
+    font-weight: bold;
+    background: rgba(95,158,160,0.8);
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);
+}
+
+
+.major_header .header_desc{
+    display: inline-block;
+    font-size: 17px;
+    
+}
+
+/************************* sub headings ***************************/
+
+
+
+
+.sub_header{
+    display: inline-block;
+    font-size: 25px;
+    background: rgba(95,158,160,0.3);
+    border-radius : 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);
+
+}
+
+
+.sub_header_body{
+        margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    margin-left: 25px;
+    border: thin gray solid;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);
+    background: rgba(112,128,144,0.1);
+    
+    transition:All 2s ;
+-webkit-transition:All 2s ;
+-moz-transition:All 2s ;
+-o-transition:All 2s ;
+transform:  scale(1) translate(10px);
+-webkit-transform:  scale(1) ;
+-moz-transform:  scale(1)  ;
+-o-transform:  scale(1)  ;
+-ms-transform:  scale(1)  ;
+}
+
+.sub_header_body:hover{
+    transform:  scale(1.1)  ;
+-webkit-transform:  scale(1.1)  ;
+-moz-transform:  scale(1.1) ;
+-o-transform:  scale(1.1)  ;
+-ms-transform:  scale(1.1)  ;
+}
+.sub_header_description{
+/*    float: left;*/
+ 
+ 
+}
+
+.sub_header_technologies {   
+    float: right;
+
+}
+
+.sub_header_technologies ul li{
+    color: white;
+    margin: 3px;
+    padding-right: 2px;
+    padding-left: 2px;
+    text-align: right;
+    background: rgba(47,79,79,1);
+    border-radius : 7px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);
+}
+
+.project-heading{
+   font-weight:bolder; 
+   font-size: 110%;
+}
+
+
+
+
+
+/************************* my details ***************************/
+
+.my_details {
+    
+    margin-left: 20px;
+}
+.my_details tr{
+    display: block;
+    margin-bottom: 10px;
+
+}
+.my_details td{
+    
+    vertical-align: top;
+    
+}
+.my_details td:first-child{
+    width: 200px;
+}
+
+/************************* mix ***************************/
+ ul{
+    list-style-type: none;
+}
+ol {
+    list-style-type: lower-roman;
+/*    list-style-type: none;*/
+    margin-left: 20px;
+    
+}
+th{
+    color: white;
+    background-color: rgba(47,79,79,1);
+    
+}
+
+.data th:first-child{
+    width:190px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);
+}
+
+.data_wide_table th:first-child{
+    width:650px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);
+}
+
+td{
+    text-align: left;
+}
+.emphasis{
+/*    
+    font-weight: bold;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.7);*/
+    background: rgba(255,222,173,0.7);
+    text-shadow: 0px 0px 15px rgba(0,0,0,1);
+    border-radius: 5px;
+    
+}
+
+/************************* footer ***************************/
+
+#page_footer{
+    
+    text-align: center;
+    border-top: thin rgba(95,158,160,1) solid;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#page_footer_body{
+    display: inline-block;
+    color: rgba(95,158,160,1);
+    margin-right: auto;
+    margin-left: auto;
+    text-shadow: 0px 0px 3px rgb(0,0,0);
+}
+
+
+
+
+
+/*
+transition:All 1s ;
+-webkit-transition:All 1s ;
+-moz-transition:All 1s ;
+-o-transition:All 1s ;
+transform: rotate(2deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(-2deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(-2deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(-2deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(-2deg) scale(1) skew(1deg) translate(10px); 
+*/
+
+
+
+/*
+transform: rotate(0deg) scale(1.1) skew(0deg) translate(-1px);
+-webkit-transform: rotate(0deg) scale(1.1) skew(0deg) translate(-1px);
+-moz-transform: rotate(0deg) scale(1.1) skew(0deg) translate(-1px);
+-o-transform: rotate(0deg) scale(1.1) skew(0deg) translate(-1px);
+-ms-transform: rotate(0deg) scale(1.1) skew(0deg) translate(-1px);
+*/
